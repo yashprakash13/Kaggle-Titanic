@@ -11,6 +11,10 @@ pipenv shell
 ```bash
 $ pipenv install -r requirements.txt
 ```
+4. Finally, open the jupyter lab environment:
+```bash
+pipenv run jupyter lab
+```
 
 ### The notebooks
 1. First submission- **titanic-pred-raw.ipynb**, uses linear SVM model to predict survivors aboard the Titanic. 
